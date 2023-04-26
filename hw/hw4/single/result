@@ -1,0 +1,31 @@
+File Name: g1_1024_128
+Lower Elapsed Time: 146.321ms
+-----------------------
+File Name: g1_1024_32
+Lower Elapsed Time: 126.711ms
+-----------------------
+File Name: g1_1024_64
+Lower Elapsed Time: 175.933ms
+-----------------------
+File Name: g1_2048_128
+Lower Elapsed Time: 1149.57ms
+-----------------------
+File Name: g1_2048_32
+Lower Elapsed Time: 923.35ms
+-----------------------
+File Name: g1_2048_64
+Lower Elapsed Time: 1405.04ms
+-----------------------
+File Name: g1_4096_128
+Lower Elapsed Time: 9171.11ms
+-----------------------
+File Name: g1_4096_32
+Lower Elapsed Time: 10545.3ms
+-----------------------
+File Name: g1_4096_64
+Lower Elapsed Time: 10949.7ms
+-----------------------
+No elapsed times found in the file.
+-----------------------
+No elapsed times found in the file.
+-----------------------

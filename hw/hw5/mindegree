@@ -1,0 +1,132 @@
+[Initialization : 322.93ms]
+
+=== PARDISO: solving a symmetric positive definite system ===
+Matrix checker is turned ON
+0-based array is turned ON
+PARDISO single precision computation is turned ON
+Minimum degree algorithm at reorder step is turned ON
+Scaling is turned ON
+
+
+Summary: ( reordering phase )
+================
+
+Times:
+======
+Time spent in calculations of symmetric matrix portrait (fulladj): 0.012474 s
+Time spent in reordering of the initial matrix (reorder)         : 0.608331 s
+Time spent in symbolic factorization (symbfct)                   : 0.284178 s
+Time spent in data preparations for factorization (parlist)      : 0.020069 s
+Time spent in allocation of internal data structures (malloc)    : 0.095816 s
+Time spent in additional calculations                            : 0.077415 s
+Total time spent                                                 : 1.098283 s
+
+Statistics:
+===========
+Parallel Direct Factorization is running on 48 OpenMP
+
+< Linear system Ax = b >
+             number of equations:           262144
+             number of non-zeros in A:      965596
+             number of non-zeros in A (%): 0.001405
+
+             number of right-hand sides:    1
+
+< Factors L and U >
+< Preprocessing with multiple minimum degree, tree height >
+< Reduction for efficient parallel factorization >
+             number of columns for each panel: 64
+             number of independent subgraphs:  0
+             number of supernodes:                    184628
+             size of largest supernode:               10309
+             number of non-zeros in L:                187686049
+             number of non-zeros in U:                1
+             number of non-zeros in L+U:              187686050
+Reordering completed ... 
+Number of nonzeros in factors = 187686050
+Number of factorization MFLOPS = 981144
+=== PARDISO is running in In-Core mode, because iparam(60)=0 ===
+
+Percentage of computed non-zeros for LL^T factorization
+ 1 %  2 %  3 %  4 %  5 %  6 %  7 %  8 %  9 %  10 %  11 %  12 %  15 %  16 %  22 %  25 %  30 %  36 %  45 %  54 %  68 %  82 %  93 %  99 %  100 % 
+
+=== PARDISO: solving a symmetric positive definite system ===
+Single-level factorization algorithm is turned ON
+
+
+Summary: ( factorization phase )
+================
+
+Times:
+======
+Time spent in copying matrix to internal data structure (A to LU): 0.000000 s
+Time spent in factorization step (numfct)                        : 2.715650 s
+Time spent in allocation of internal data structures (malloc)    : 0.002040 s
+Time spent in additional calculations                            : 0.000052 s
+Total time spent                                                 : 2.717742 s
+
+Statistics:
+===========
+Parallel Direct Factorization is running on 48 OpenMP
+
+< Linear system Ax = b >
+             number of equations:           262144
+             number of non-zeros in A:      965596
+             number of non-zeros in A (%): 0.001405
+
+             number of right-hand sides:    1
+
+< Factors L and U >
+< Preprocessing with multiple minimum degree, tree height >
+< Reduction for efficient parallel factorization >
+             number of columns for each panel: 64
+             number of independent subgraphs:  0
+             number of supernodes:                    184628
+             size of largest supernode:               10309
+             number of non-zeros in L:                187686049
+             number of non-zeros in U:                1
+             number of non-zeros in L+U:              187686050
+             gflop   for the numerical factorization: 981.144287
+
+             gflop/s for the numerical factorization: 361.292603
+
+Factorization completed ... 
+
+=== PARDISO: solving a symmetric positive definite system ===
+
+
+Summary: ( solution phase )
+================
+
+Times:
+======
+Time spent in direct solver at solve step (solve)                : 0.490172 s
+Time spent in additional calculations                            : 0.004025 s
+Total time spent                                                 : 0.494197 s
+
+Statistics:
+===========
+Parallel Direct Factorization is running on 48 OpenMP
+
+< Linear system Ax = b >
+             number of equations:           262144
+             number of non-zeros in A:      965596
+             number of non-zeros in A (%): 0.001405
+
+             number of right-hand sides:    1
+
+< Factors L and U >
+< Preprocessing with multiple minimum degree, tree height >
+< Reduction for efficient parallel factorization >
+             number of columns for each panel: 64
+             number of independent subgraphs:  0
+             number of supernodes:                    184628
+             size of largest supernode:               10309
+             number of non-zeros in L:                187686049
+             number of non-zeros in U:                1
+             number of non-zeros in L+U:              187686050
+             gflop   for the numerical factorization: 981.144287
+
+             gflop/s for the numerical factorization: 361.292603
+
+Solve completed ... 
